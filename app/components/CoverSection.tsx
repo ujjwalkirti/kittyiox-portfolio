@@ -57,11 +57,11 @@ export default function CoverSection({ topVideos }: CoverSectionProps) {
           <div className="cover-portrait-ring" />
           <div className="cover-portrait-frame">
             <Image
-              src="/hero.png"
+              src="/hero.jpeg"
               alt="kittyiox's Roblox avatar in a full-body Dress to Impress look"
               className="cover-portrait-img"
-              width={393}
-              height={634}
+              fill
+              sizes="(max-width: 768px) 100vw, 420px"
               priority
             />
             <div className="cover-portrait-fade" />

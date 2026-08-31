@@ -118,6 +118,11 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 @keyframes kl-marquee {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
@@ -602,9 +607,9 @@ header.is-scrolled {
 }
 
 .cover-portrait-img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
   object-position: center 15%;
   background: var(--kl-blush);
 }
