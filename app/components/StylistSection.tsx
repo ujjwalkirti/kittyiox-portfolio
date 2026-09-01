@@ -7,7 +7,7 @@ export default function StylistSection() {
         <div className="stylist-photo">
           <div className="stylist-photo-ring" />
           <img
-            src="/stylist-removebg-preview.png"
+            src="/stylist.jpeg"
             alt="kittyiox's Roblox avatar, a close-up styling shot"
             className="stylist-img"
           />
